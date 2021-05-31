@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    display: flex;
+    text-align: center;
+    height: 100vh;
+}
+
+.title {
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 800;
+    margin: 20px;
+
+}
+
+.form {
+    margin: auto;
+}
+
+.main-form {
+    padding: 20px;
+}
+
+.logo {
+    max-width: 250px;
+    max-height: 250px;
+    margin: 20px;
+}
+
+.my-form {
+    margin: 20px;
+}
+
+.btn {
+    height: 50px;
+    width: 100%;
+    max-width: 250px;
+}
+
+button.btn-primary {
+    background-color: #6A266F;
+    border-color: #6A266F;
+}
+
+button.btn-primary:hover {
+    background-color: #4F0F53;
+    border-color: #4F0F53;
+}
